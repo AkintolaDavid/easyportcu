@@ -1,0 +1,50 @@
+.container {
+  height: 90vh;
+  /* background-color: aqua; */
+  background-image: url(../asset/ee.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.websitemain {
+  font-size: 27px;
+  font-weight: 600;
+}
+.madeeasy {
+  margin-top: 500px;
+  font-size: 55px;
+  font-weight: 600;
+}
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+.buttons button {
+  height: 60px;
+  width: 250px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+.learnmore {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
+.makerequest {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.buttons button:hover {
+  background-color: white;
+  color: black;
+}
+.makerequest :hover {
+  background-color: white;
+  color: black;
+}

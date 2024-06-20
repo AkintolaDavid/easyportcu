@@ -1,0 +1,100 @@
+.teams_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.team_stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+  background-color: black;
+  color: white;
+}
+.slash {
+  height: 120px;
+  width: 3px;
+  /* border: 1px solid white; */
+  background-color: white;
+  color: white;
+}
+.test_img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+.team_stats div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.team_stats_number {
+  font-size: 70px;
+  font-weight: 600;
+}
+.team_stats_word {
+  font-size: 22px;
+  font-weight: 600;
+}
+.team_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.team_text div {
+  font-size: 50px;
+  font-weight: 700;
+}
+.team_text span {
+  font-size: 20px;
+}
+.team_profile {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 80px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.student {
+  display: flex;
+}
+.lecturer {
+  display: flex;
+}
+.student_details {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-around;
+}
+.lecturer_details {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-around;
+}
+.team_stu_logo {
+  display: flex;
+  gap: 20px;
+}
+.team_stu_logo div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  height: 25px;
+  width: 25px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.team_stu_name {
+  font-size: 23px;
+}
+.team_lec_name {
+  font-size: 23px;
+}
