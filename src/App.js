@@ -6,16 +6,18 @@ import Navbar from "./Navbar";
 import { Teams } from "./Teams/Teams";
 import { Maintenance } from "./Maintenance/Maintenance";
 import { Contactme } from "./Contactme/Contactme";
+import { LoginPage } from "./LoginPage/LoginPage";
 function App() {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/teams" element={<Teams />} />
         <Route path="/maintenance" element={<Maintenance />} />
         <Route path="/contact" element={<Contactme />} />
+        <Route path="/loginpage" element={<LoginPage />} />{" "}
       </Routes>
     </Router>
   );

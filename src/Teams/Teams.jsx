@@ -11,7 +11,7 @@ import { Testimonials } from "../Testimonials/Testimonials";
 export const Teams = () => {
   return (
     <>
-      <div className="teams_container">
+      <div className="teams_container" id="team">
         <div className="team_text">
           <div>Team</div>
           <span>

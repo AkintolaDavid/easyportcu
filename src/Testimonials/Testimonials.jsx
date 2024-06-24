@@ -5,7 +5,7 @@ import { Contactme } from "../Contactme/Contactme";
 export const Testimonials = () => {
   return (
     <>
-      <div className="test_container">
+      <div id="testimonial" className="test_container">
         <div className="test_text">Testimonials</div>
         <div className="">
           <img src={testimg} className="test_img" />

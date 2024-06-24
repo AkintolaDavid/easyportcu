@@ -1,5 +1,6 @@
 .teams_container {
   height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -41,7 +42,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 130px;
 }
 .team_text div {
   font-size: 50px;
@@ -75,7 +76,7 @@
   margin-left: 30px;
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 180px;
   justify-content: space-around;
 }
 .team_stu_logo {

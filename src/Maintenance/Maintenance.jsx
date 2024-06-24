@@ -1,13 +1,15 @@
 import React from "react";
 import "./Maintenance.css";
-import elect from "../asset/elect.png";
+import civil from "../asset/civil.png";
 import general from "../asset/general.png";
-import mech from "../asset/mech.jpg";
+import structure from "../asset/structure.jpg";
 import { Teams } from "../Teams/Teams";
+import { useRef } from "react";
+
 export const Maintenance = () => {
   return (
     <>
-      <div className="maintenance_container">
+      <div id="service" className="maintenance_container">
         <div className="maintenance_text">
           <span className="maintenance_text_header">Maintenance Services</span>
           <span className="maintenance_text_subheader">
@@ -17,28 +19,34 @@ export const Maintenance = () => {
         </div>
         <div className="areas">
           <div className="electrical">
-            <img src={elect} className="area_img" />
-            <h2>Electrical services</h2>
+            <img src={civil} className="area_img" />
+            <h2>Civil services</h2>
             <span>
-              we understand the critical role electrical systems play in your
-              construction project. Our team of licensed electricians provides
-              comprehensive electrical services, from new installations and
-              upgrades to troubleshooting and repairs. Whether you're building a
-              new office complex, renovating a residential property, or simply
-              require routine maintenance.
+              We meticulously design and implement robust drainage systems,
+              grading plans, and foundation systems. This ensures your structure
+              stands on a stable and well-prepared base, ready to withstand the
+              test of time. We also specialize in infrastructure planning,
+              designing and implementing essential elements like roads, bridges,
+              and utilities. Our focus goes beyond functionality, as we
+              prioritize sustainable practices to ensure your project integrates
+              seamlessly with the surrounding environment.
             </span>
           </div>
           <div className="mechanical">
-            <img src={mech} className="area_img" />
-            <h2>Mechanical services</h2>
+            <img src={structure} className="area_img" />
+            <h2>Structural services</h2>
             <span>
-              we specialize in comprehensive mechanical services, ensuring your
-              construction project achieves optimal functionality and comfort.
-              We understand the complex interplay between various mechanical
-              systems and take a holistic approach to design, installation, and
-              maintenance. We work closely with your architects, engineers, and
-              other construction professionals to ensure seamless integration of
-              mechanical systems into your overall project design.
+              With a team of experienced engineers who utilize cutting-edge
+              software and industry knowledge to design load-bearing structures.
+              These structures are meticulously analyzed to withstand a variety
+              of forces, from wind and seismic activity to everyday use. We
+              prioritize safety and efficiency, creating reliable structures
+              that comply with all relevant building codes and regulations. Our
+              approach emphasizes optimization, ensuring your structure
+              possesses the strength it needs without unnecessary bulk. We work
+              closely with architects and other stakeholders to guarantee
+              seamless integration of our structural design into the overall
+              project.
             </span>
           </div>
           <div className="general">
