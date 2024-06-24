@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import * as Icons from "react-icons/fa";
+
 import "./Navbar.css";
 import { navItems } from "./NavItems";
 // import { Testimonials } from "./Testimonials/Testimonials";
@@ -13,7 +13,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo">
-          EASY PORT CU
+          Mcivistruct
         </Link>
         <ul className="nav-items">
           {navItems.map((item) => {

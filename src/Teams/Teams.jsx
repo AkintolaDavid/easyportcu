@@ -1,11 +1,12 @@
 import React from "react";
 import "./Teams.css";
-import lecimg from "../asset/download.jpeg";
+
+import lecturer from "../asset/lecturer.jpg";
 import studentimg from "../asset/photo_2024-06-20_11-27-56.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
-import { IoMdMail } from "react-icons/io";
+
 import { Testimonials } from "../Testimonials/Testimonials";
 export const Teams = () => {
   return (
@@ -20,7 +21,7 @@ export const Teams = () => {
         </div>
         <div className="team_profile">
           <div className="student">
-            <img src={studentimg} className="test_img" />
+            <img src={studentimg} className="test_img" alt="lect" />
             <div className="student_details">
               <span className="team_stu_name">Ebuka David Ibeh</span>
               <span className="team_stu_skill">Web designer</span>
@@ -39,7 +40,7 @@ export const Teams = () => {
             </div>
           </div>
           <div className="lecturer">
-            <img src={lecimg} className="test_img" />
+            <img src={lecturer} className="test_img" alt="lect" />
             <div className="lecturer_details">
               <span className="team_lec_name">Lekan Amusan</span>
 

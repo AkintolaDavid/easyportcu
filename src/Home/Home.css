@@ -1,7 +1,7 @@
 .container {
   height: 90vh;
   /* background-color: aqua; */
-  background-image: url(../asset/ee.jpg);
+  background-image: url(../asset/background2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12,7 +12,7 @@
   gap: 40px;
 }
 .websitemain {
-  font-size: 27px;
+  font-size: 29px;
   font-weight: 600;
 }
 .madeeasy {

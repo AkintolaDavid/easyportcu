@@ -8,7 +8,7 @@ export const Home = () => {
         <div className="madeeasy">Maintenance Made Easy</div>
         <div className="websitemain">
           This website main purpose is to make maintenance easy and available to
-          the community of Covenant University
+          the community of Sango Otta.
         </div>
         <div className="buttons">
           <button className="learnmore">Learn More</button>
