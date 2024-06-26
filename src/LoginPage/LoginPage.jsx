@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import logo from "../asset/logo.jpg";
 import "./LoginPage.css";
 
 import { IoArrowBack } from "react-icons/io5";
@@ -90,6 +91,8 @@ export const LoginPage = () => {
           <div className="back_div">
             {" "}
             <IoArrowBack className="backarrow" onClick={backhandler} />
+            <img src={logo} className="logo_img" />
+            <div></div>
           </div>
           <div className="main_container">
             <div className="loginpage_container">

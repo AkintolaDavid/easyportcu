@@ -72,12 +72,12 @@ export const Contactme = () => {
       console.log("Signup failed:", response.statusText);
     }
   };
-  const phoneNumber = "08069709910";
+  const phoneNumber = "09091485687";
   const handlePhoneClick = () => {
     window.location.href = "tel:" + phoneNumber;
   };
-  const email = "student@gmail.com";
-  const address = "Covenant university, otta, Ogun state, Nigeria";
+  const email = "ebukaibeh83@gmail.com";
+  const address = "Covenant University, Otta, Ogun state, Nigeria";
 
   const handleEmailClick = () => {
     window.location.href = "mailto:" + email;

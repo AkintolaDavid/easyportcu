@@ -15,14 +15,26 @@
   border-bottom-right-radius: 30px;
 }
 .back_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+
+  width: 100%;
   background-color: rgb(227, 227, 227);
+}
+.logo_img {
+  height: 150px;
+  border-radius: 20px;
+  margin-right: 105px;
 }
 .backarrow {
   font-size: 50px;
+  margin-left: 50px;
 }
 .main_container {
   display: flex;
-  margin-top: 100px;
+  margin-top: 30px;
   justify-content: center;
   align-items: center;
 }
